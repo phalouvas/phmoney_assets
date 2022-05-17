@@ -1,0 +1,1 @@
+import{_ as o}from"./TransactionsEdit.81005e8c.js";import{d as t,r as a,o as s,c as r,w as n,a as c,b as _}from"./main.769fda87.js";const m={class:"bg-white shadow mt-4 prose max-w-none"},u=t({setup(i){return(p,d)=>{const e=a("FormLayout");return s(),r(e,{title:"Create Transaction"},{default:n(()=>[c("div",m,[_(o)])]),_:1})}}});export{u as default};
