@@ -1,0 +1,30 @@
+{
+  "name": "vue",
+  "version": "0.0.0",
+  "scripts": {
+    "watch": "vite build --watch --mode=watch",
+    "dev": "vite build --mode=development",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "evaluator.js": "^3.2.4",
+    "moment": "^2.29.3",
+    "vue": "^3.2.33",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.0",
+    "@tailwindcss/typography": "^0.5.2",
+    "@types/node": "^16.11.27",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/tsconfig": "^0.1.3",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.24",
+    "typescript": "~4.6.3",
+    "vite": "^2.9.5",
+    "vue-tsc": "^0.34.7"
+  }
+}
