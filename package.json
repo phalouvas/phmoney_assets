@@ -2,7 +2,7 @@
   "name": "@kainotomo/phmoney",
   "version": "0.0.1",
   "description": "PHMoney vue assets",
-  "main": "src/main.ts",
+  "main": "main.ts",
   "scripts": {
     "watch": "vite build --watch --mode=watch",
     "dev": "vite build --mode=development",
