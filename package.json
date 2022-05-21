@@ -1,6 +1,6 @@
 {
   "name": "@kainotomo/phmoney_assets",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "PHMoney vue assets",
   "main": "main.ts",
   "scripts": {
