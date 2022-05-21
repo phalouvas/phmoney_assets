@@ -48,6 +48,6 @@
   },
   "homepage": "https://github.com/kainotomo/phmoney_assets#readme",
   "publishConfig": {
-    "@kainotomo:registry": "https://npm.pkg.github.com"
+    "@kainotomo:registry": "https://registry.npmjs.org/"
   }
 }
