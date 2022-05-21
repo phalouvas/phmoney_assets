@@ -1,5 +1,5 @@
 {
-  "name": "kainotomo/phmoney_assets",
+  "name": "@kainotomo/phmoney_assets",
   "version": "0.0.10",
   "description": "PHMoney vue assets",
   "main": "main.ts",
@@ -48,6 +48,6 @@
   },
   "homepage": "https://github.com/kainotomo/phmoney_assets#readme",
   "publishConfig": {
-    "kainotomo:registry": "https://registry.npmjs.org/"
+    "@kainotomo:registry": "https://registry.npmjs.org/"
   }
 }
