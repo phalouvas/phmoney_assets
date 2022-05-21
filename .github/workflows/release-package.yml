@@ -30,4 +30,4 @@ jobs:
       - run: npm ci
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.PHMONEY_ASSETS_DEPLOY_SECRET}}
+          NODE_AUTH_TOKEN: ${{secrets.PHMONEY_ASSETS_NPM_SECRET}}
