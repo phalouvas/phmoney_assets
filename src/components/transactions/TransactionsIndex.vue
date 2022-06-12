@@ -1,22 +1,16 @@
 <script lang="ts">
 export default {
-    data() {
-        return {
-            filter: {
-                page: 1,
-                memo: null,
-                description: null,
-                num: null,
-                date_start: null,
-                date_end: null,
-            },
-        };
+    async created() {
+        if (this.$route.params.account_pk !== this.store.transactions_filter.account_pk ) {
+            this.clear();
+        } else {
+            await this.load(0);
+        }
     },
-
     methods: {
-
         clear() {
-            this.filter = {
+            this.store.transactions_filter = {
+                account_pk: this.$route.params.account_pk,
                 page: 1,
                 memo: null,
                 description: null,
@@ -24,22 +18,25 @@ export default {
                 date_start: null,
                 date_end: null,
             };
-            this.load(1);
+            this.load(0);
         },
-        async load(page) {
-            this.filter.page = page;
-            await this.store.get(`${import.meta.env.VITE_ROOT}transactions/${this.$route.params.account_pk}`, this.filter);
+        async load(page: Number) {
+            if (page > 0) {
+                this.store.transactions_filter.page = page;
+            }
+            await this.store.get(`${import.meta.env.VITE_ROOT}transactions/${this.$route.params.account_pk}`, this.store.transactions_filter);
         },
 
         async destroy(split) {
             if (confirm("Are you sure you want to delete this item?")) {
                 await this.store.delete(`${import.meta.env.VITE_ROOT}transactions/${this.store.props.account.pk}/destroy/${split.transaction.pk}`);
-                this.load(this.filter.page);
+                this.load(this.store.transactions_filter.page);
             }
         },
 
         async duplicate(split) {
             await this.store.get(`${import.meta.env.VITE_ROOT}transactions/${this.store.props.account.pk}/duplicate/${split.transaction.pk}`);
+            await this.load(0);
         },
 
     },
@@ -47,24 +44,26 @@ export default {
 </script>
 
 <template>
-    <div class="p-6 overflow-x-auto">
+    <div class="p-6 overflow-x-auto" v-if="store.props.splits !== undefined">
         <div class="flex gap-2">
             <div>
                 <form-label for="date_start" value="Start Date" />
-                <form-input type="date" id="date_start" name="date_start" v-model="filter.date_start"
+                <form-input type="date" id="date_start" name="date_start" v-model="store.transactions_filter.date_start"
                     @change="load(1)" />
             </div>
             <div>
                 <form-label for="date_end" value="End Date" />
-                <form-input type="date" id="date_end" name="date_end" v-model="filter.date_end" @change="load(1)" />
+                <form-input type="date" id="date_end" name="date_end" v-model="store.transactions_filter.date_end"
+                    @change="load(1)" />
             </div>
         </div>
         <div class="flex gap-2 pt-2">
-            <form-input id="memo" name="memo" type="text" v-model="filter.memo" placeholder="Memo..."
+            <form-input id="memo" name="memo" type="text" v-model="store.transactions_filter.memo" placeholder="Memo..."
                 @change="load(1)" />
-            <form-input id="description" name="description" type="text" v-model="filter.description"
+            <form-input id="description" name="description" type="text" v-model="store.transactions_filter.description"
                 placeholder="Description..." @change="load(1)" />
-            <form-input id="num" name="num" type="text" v-model="filter.num" placeholder="Num..." @change="load(1)" />
+            <form-input id="num" name="num" type="text" v-model="store.transactions_filter.num" placeholder="Num..."
+                @change="load(1)" />
             <form-button title="Search" @click="load(1)">
                 <span class="material-icons-outlined"> search </span>
             </form-button>
