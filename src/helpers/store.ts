@@ -23,6 +23,21 @@ export const store = reactive({
     "created_at": null,
     "updated_at": null
   },
+  accounts_filter: {
+    name: null,
+    code: null,
+    type: null,
+    level: null,
+  },
+  transactions_filter: {
+    account_pk: null,
+    page: 1,
+    memo: null,
+    description: null,
+    num: null,
+    date_start: null,
+    date_end: null,
+},
 
   /**
    * Send axios get request

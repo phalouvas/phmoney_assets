@@ -36,7 +36,7 @@ export default {
         async reload() {
             let path = this.$route.path.replace(/^\/+/, "");
 
-            if (this.store.report_settings.type !== path) {
+            if (this.store.report_settings.type !== 'phmoney/' + path) {
                 await this.store.get(`${import.meta.env.VITE_ROOT}${path}`, { 'export_csv': false });
                 let common_params = {
                     accounts: null,

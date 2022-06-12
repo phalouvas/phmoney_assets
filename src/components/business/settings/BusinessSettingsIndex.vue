@@ -49,7 +49,10 @@ export default {
         async submit() {
             let team_id = this.store.props.team.id;
             await this.store.put(`${import.meta.env.VITE_ROOT}teams/${team_id}/options/store`, this.form);
-            this.$router.go();
+            if (this.store.errors === null) {
+                this.store.errors = "Settings Saved Successfully!";
+            }
+            this.$router.back();
         },
     },
 }
