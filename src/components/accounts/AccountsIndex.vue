@@ -51,7 +51,7 @@ export default {
 }
 </script>
 <template>
-    <div class="md:p-6" v-if="!store.processing">
+    <div class="md:p-6" v-if="!store.processing && store.props.accounts">
         <div class="flex gap-2">
             <form-input id="filter_name" name="filter_name" type="text" v-model="store.accounts_filter.name"
                 placeholder="Filter by name..." />
