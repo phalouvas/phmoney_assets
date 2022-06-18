@@ -7,9 +7,9 @@ export default {
   data() {
     return {
       extra_params: {
-        level: 0,
+        level: null,
       },
-      levels: [0, 1, 2, 3, 4, 5, 6],
+      levels: [null, 0, 1, 2, 3, 4, 5, 6],
     };
   },
 };
