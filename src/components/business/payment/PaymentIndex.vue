@@ -130,7 +130,7 @@ export default {
             </div>
         </div>
 
-        <table>
+        <table v-if="store.props.items">
             <thead>
                 <tr>
                     <th>Num</th>

@@ -130,6 +130,18 @@ export default {
                                 </RouterLink>
                             </template>
                         </VerticalDropdown>
+                        <VerticalDropdown align="right" width="48" label="Tools" icon="handyman" :active="
+                            route.name == 'tools.closebook.index'
+                        ">
+                            <template #content>
+                                <RouterLink :to="{ name: 'tools.closebook.index' }" custom
+                                    v-slot="{ href, route, navigate, isActive, isExactActive }">
+                                    <VerticalNavLink :active="isActive" :href="href" @click="navigate">
+                                        Close Book
+                                    </VerticalNavLink>
+                                </RouterLink>
+                            </template>
+                        </VerticalDropdown>
                         <RouterLink :to="{ name: 'reports.index' }" custom
                             v-slot="{ href, route, navigate, isActive, isExactActive }">
                             <VerticalNavLink :active="isActive" :href="href" icon="summarize" @click="navigate">
