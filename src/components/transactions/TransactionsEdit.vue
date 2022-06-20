@@ -104,6 +104,7 @@ export default {
       if (isNaN(result)) {
         return;
       }
+      result = parseFloat(result.toFixed(2));
       if (result != 0) {
         this.error_message = "The sum of all splits must be zero";
       }
