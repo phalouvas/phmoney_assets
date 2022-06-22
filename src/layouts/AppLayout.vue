@@ -49,7 +49,7 @@ export default {
                     <ul class="space-y-2">
                         <RouterLink :to="{ name: 'dashboard' }" custom
                             v-slot="{ href, route, navigate, isActive, isExactActive }">
-                            <VerticalNavLink :active="isActive" :href="href" icon="dashboard" @click="navigate">
+                            <VerticalNavLink :active="isActive" :href="href" icon="speed" @click="navigate">
                                 Dashboard
                             </VerticalNavLink>
                         </RouterLink>
@@ -182,7 +182,7 @@ export default {
                     <ul class="space-y-2">
                         <RouterLink :to="{ name: 'dashboard' }" custom
                             v-slot="{ href, route, navigate, isActive, isExactActive }">
-                            <VerticalNavLink :active="isActive" :href="href" icon="dashboard" @click="navigate">
+                            <VerticalNavLink :active="isActive" :href="href" icon="speed" @click="navigate">
                                 Dashboard
                             </VerticalNavLink>
                         </RouterLink>

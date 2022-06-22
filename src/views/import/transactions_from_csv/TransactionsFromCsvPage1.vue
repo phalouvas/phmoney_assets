@@ -11,9 +11,9 @@ export default {
 </script>
 
 <template>
-  <FormLayout title="Import Transactions from CSV">
+  <ImportLayout title="Import Transactions from CSV">
     <div class="bg-white shadow mt-4 prose max-w-none">
       <TransactionsFromCsvPage1 />
     </div>
-  </FormLayout>
+  </ImportLayout>
 </template>

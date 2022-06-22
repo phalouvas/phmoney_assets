@@ -4,6 +4,7 @@ import './assets/tailwind.css'
 import router from './router'
 import AppLayout from "./layouts/AppLayout.vue"
 import FormLayout from "./layouts/FormLayout.vue"
+import ImportLayout from "./layouts/ImportLayout.vue"
 import ReportLayout from "./layouts/ReportLayout.vue"
 import FormInput from "./common/form/FormInput.vue"
 import FormLabel from "./common/form/FormLabel.vue"
@@ -26,6 +27,7 @@ app.config.globalProperties.moment = moment;
 
 app.component("AppLayout", AppLayout)
 app.component("FormLayout", FormLayout)
+app.component("ImportLayout", ImportLayout)
 app.component("ReportLayout", ReportLayout)
 app.component("FormInput", FormInput)
 app.component("FormLabel", FormLabel)

@@ -3,9 +3,9 @@ import TransactionsFromCsvPage3 from '@/components/import/transactions_from_csv/
 </script>
 
 <template>
-  <FormLayout title="Import Preview">
+  <ImportLayout title="Import Preview">
     <div class="bg-white shadow mt-4 prose max-w-none">
       <TransactionsFromCsvPage3 />
     </div>
-  </FormLayout>
+  </ImportLayout>
 </template>

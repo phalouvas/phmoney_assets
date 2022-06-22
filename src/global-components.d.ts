@@ -1,5 +1,6 @@
 import AppLayout from "@/layouts/AppLayout.vue";
 import FormLayout from "@/layouts/FormLayout.vue";
+import ImportLayout from "@/layouts/ImportLayout.vue";
 import ReportLayout from "@/layouts/ReportLayout.vue";
 import FormInput from "./common/form/FormInput.vue"
 import FormLabel from "./common/form/FormLabel.vue"
@@ -15,6 +16,7 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     AppLayout: typeof AppLayout,
     FormLayout: typeof FormLayout,
+    ImportLayout: typeof ImportLayout,
     ReportLayout: typeof ReportLayout,
     FormInput: typeof FormInput,
     FormLabel: typeof FormLabel,

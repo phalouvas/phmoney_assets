@@ -11,9 +11,9 @@ export default {
 </script>
 
 <template>
-  <FormLayout title="Select File">
+  <ImportLayout title="Select File">
     <div class="bg-white shadow mt-4 prose max-w-none">
       <TransactionsFromCsvPage2 />
     </div>
-  </FormLayout>
+  </ImportLayout>
 </template>
