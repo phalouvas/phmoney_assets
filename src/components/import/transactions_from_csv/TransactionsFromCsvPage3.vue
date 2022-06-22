@@ -46,9 +46,9 @@ export default {
         },
         reset() {
             for (let index = 0; index < this.form.items.length; index++) {
-                this.form.items.length;[index].checked = this.store.props.items[index].checked;
-                this.form.items.length;[index].is_valid = this.store.props.items[index].is_valid;
-                this.form.items.length;[index].validation_message = this.store.props.items[index].validation_message;
+                this.form.items[index].checked = this.store.props.items[index].checked;
+                this.form.items[index].is_valid = this.store.props.items[index].is_valid;
+                this.form.items[index].validation_message = this.store.props.items[index].validation_message;
                 
             }
         },
@@ -86,15 +86,32 @@ export default {
 
         <form @submit.prevent="">
 
+            <div class="flex items-center justify-end mt-4 gap-2">
+                <div v-show="store.props.can_proceed_message">
+                    <p class="text-sm text-red-600">
+                        {{ store.props.can_proceed_message }}
+                    </p>
+                </div>
+                <form-secondary-button @click="$router.back()" title="Back">
+                    <span class="material-icons-outlined">navigate_before</span>
+                </form-secondary-button>
+                <form-button :disabled="form.processing || !store.props.can_proceed" @click="next" title="Next">
+                    <span class="material-icons-outlined">navigate_next</span>
+                </form-button>
+                <form-label for="skip_errors" value="Skip Invalid" />
+                <form-checkbox id="skip_errors" name="skip_errors" v-model="form.skip_errors" @change="submit" />
+            </div>
+
             <div class="overflow-auto h-screen">
                 <table class="table">
                     <thead>
                         <tr>
-                            <th :colspan="form.items[0].value.length + 3">
+                            <th :colspan="form.items[0].value.length + 4">
                                 Total Rows - {{ form.items.length }}
                             </th>
                         </tr>
                         <tr>
+                            <th></th>
                             <th>
                                 <form-checkbox :id="'index_check_all'" name="index_check_all" @input="onCheckAll" />
                             </th>
@@ -132,12 +149,13 @@ export default {
                     </thead>
                     <tbody>
                         <tr v-for="(item, index) in form.items" :class="getTrValidClass(item)">
+                            <td class="text-white p-2" v-if="item.is_valid === false && item.checked === true">
+                                {{ item.validation_message }}
+                            </td>
+                            <td v-else></td>
                             <td>
                                 <form-checkbox :id="'index_check' + index" name="index_check"
                                     v-model:checked="item.checked" @change="submit" />
-                                <div class="bg-red-500" v-if="item.is_valid === false && item.checked === true">
-                                    {{ item.validation_message }}
-                                </div>
                             </td>
                             <td>
                                 <select :id="`source_account${index}`" v-model="item.source_account" @change="submit"
@@ -167,21 +185,6 @@ export default {
                 </table>
             </div>
 
-            <div class="flex items-center justify-end mt-4 gap-2">
-                <div v-show="store.props.can_proceed_message">
-                    <p class="text-sm text-red-600">
-                        {{ store.props.can_proceed_message }}
-                    </p>
-                </div>
-                <form-secondary-button @click="$router.back()" title="Back">
-                    <span class="material-icons-outlined">navigate_before</span>
-                </form-secondary-button>
-                <form-button :disabled="form.processing || !store.props.can_proceed" @click="next" title="Next">
-                    <span class="material-icons-outlined">navigate_next</span>
-                </form-button>
-                <form-label for="skip_errors" value="Skip Invalid" />
-                <form-checkbox id="skip_errors" name="skip_errors" v-model="form.skip_errors" @change="submit" />
-            </div>
         </form>
 
     </div>
