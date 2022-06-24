@@ -152,12 +152,6 @@ export default {
                             route.name == 'import.transactions_from_csv.page1'
                         ">
                             <template #content>
-                                <RouterLink :to="{ name: 'import.sqlite_database.index' }" custom
-                                    v-slot="{ href, route, navigate, isActive, isExactActive }">
-                                    <VerticalNavLink :active="isActive" :href="href" @click="navigate">
-                                        Sqlite Database
-                                    </VerticalNavLink>
-                                </RouterLink>
                                 <RouterLink :to="{ name: 'import.transactions_from_csv.page1' }" custom
                                     v-slot="{ href, route, navigate, isActive, isExactActive }">
                                     <VerticalNavLink :active="isActive" :href="href" @click="navigate">

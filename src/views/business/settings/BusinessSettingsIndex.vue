@@ -1,19 +1,15 @@
 <script setup lang="ts">
 import BusinessSettingsIndex from '@/components/business/settings/BusinessSettingsIndex.vue'
-</script>
-
-<script lang="ts">
-export default {
-  async created() {
-        await this.store.get(`${import.meta.env.VITE_ROOT}teams/${this.store.user.current_team_id}/options/show`);
-    },
-}
+import SqliteDatabaseIndex from '@/components/business/settings/SqliteDatabaseIndex.vue'
 </script>
 
 <template>
-  <FormLayout title="Default Settings" >
+  <FormLayout title="Default Settings">
     <div class="bg-white shadow mt-4 prose max-w-none">
-            <BusinessSettingsIndex v-if="!store.processing"/>
-        </div>
+      <BusinessSettingsIndex />
+    </div>
+    <div class="bg-white shadow mt-4 prose max-w-none">
+      <SqliteDatabaseIndex />
+    </div>
   </FormLayout>
 </template>

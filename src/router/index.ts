@@ -234,11 +234,6 @@ const router = createRouter({
       component: () => import('../views/business/settings/BusinessSettingsIndex.vue'),
     },
     {
-      path: '/import/sqlite_database/index',
-      name: 'import.sqlite_database.index',
-      component: () => import('../views/import/sqlite_database/SqliteDatabaseIndex.vue'),
-    },
-    {
       path: '/import/transactions_from_csv/page1',
       name: 'import.transactions_from_csv.page1',
       component: () => import('../views/import/transactions_from_csv/TransactionsFromCsvPage1.vue'),
