@@ -6,10 +6,10 @@ import SqliteDatabaseIndex from '@/components/business/settings/SqliteDatabaseIn
 <template>
   <FormLayout title="Default Settings">
     <div class="bg-white shadow mt-4 prose max-w-none">
-      <BusinessSettingsIndex />
+      <SqliteDatabaseIndex />
     </div>
     <div class="bg-white shadow mt-4 prose max-w-none">
-      <SqliteDatabaseIndex />
+      <BusinessSettingsIndex />
     </div>
   </FormLayout>
 </template>

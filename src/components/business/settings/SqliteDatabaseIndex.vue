@@ -29,7 +29,10 @@ export default {
 
 <template>
     <form @submit.prevent="submit" class="p-6">
-        <p>Load or save data as sqlite file.</p>
+        <p>
+            Load or save the whole book data as sqlite file. The sqlite file is fully compatible with <a href="https://gnucash.org/" target="_blank">GnuCash</a>
+        </p>
+
         <div>
             <form-label for="sqlite_file" value="Select a Sqlite file" />
             <form-input id="sqlite_file" type="file" class="mt-1 block w-full"
