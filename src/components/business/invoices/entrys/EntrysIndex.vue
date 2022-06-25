@@ -88,7 +88,7 @@ export default {
 </script>
 
 <template>
-    <div class="p-6 overflow-x-auto">
+    <div class="p-6 overflow-x-auto" v-if="store.props.invoice">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div class="border p-2">
                 <div class="font-semibold text-md">Invoice Information</div>
@@ -98,7 +98,7 @@ export default {
                 </div>
                 <div class="grid grid-cols-2 gap-4 text-sm">
                     <div>{{ store.getInvoiceType() }} ID:</div>
-                    <div>{{ store.props.invoice.id }}</div>
+                    <div>{{ store.props.invoice.pk }}</div>
                 </div>
                 <div class="grid grid-cols-2 gap-4 text-sm">
                     <div>Date Opened:</div>
