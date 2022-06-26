@@ -229,11 +229,6 @@ const router = createRouter({
       component: () => import('../views/business/taxtables/entrys/TaxtablesEntrysEdit.vue'),
     },
     {
-      path: '/business/settings/index',
-      name: 'business.settings.index',
-      component: () => import('../views/business/settings/BusinessSettingsIndex.vue'),
-    },
-    {
       path: '/import/transactions_from_csv/page1',
       name: 'import.transactions_from_csv.page1',
       component: () => import('../views/import/transactions_from_csv/TransactionsFromCsvPage1.vue'),
@@ -254,10 +249,25 @@ const router = createRouter({
       component: () => import('../views/import/transactions_from_csv/TransactionsFromCsvPage4.vue'),
     },
     {
-      path: '/tools/closebook',
-      name: 'tools.closebook.index',
-      component: () => import('../views/tools/closebook/ClosebookIndex.vue'),
+      path: '/book/close/index',
+      name: 'book.close.index',
+      component: () => import('../views/book/BookCloseIndex.vue'),
     },
+    {
+      path: '/book/samples/index',
+      name: 'book.samples.index',
+      component: () => import('../views/book/BookSamplesIndex.vue'),
+    },
+    {
+      path: '/book/download_upload/index',
+      name: 'book.download_upload.index',
+      component: () => import('../views/book/BookDownloadUploadIndex.vue'),
+    },
+    {
+      path: '/book/settings/index',
+      name: 'book.settings.index',
+      component: () => import('../views/book/BookSettingsIndex.vue'),
+    },    
     {
       path: '/reports',
       name: 'reports.index',

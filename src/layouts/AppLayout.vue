@@ -67,8 +67,7 @@ export default {
                             route.name == 'business.employees.index' ||
                             route.name == 'business.jobs.index' ||
                             route.name == 'business.taxtables.index' ||
-                            route.name == 'business.billterms.index' ||
-                            route.name == 'business.settings.index'
+                            route.name == 'business.billterms.index'
                         ">
                             <template #content>
                                 <RouterLink :to="{ name: 'business.payment.index' }" custom
@@ -121,23 +120,37 @@ export default {
                                         Bill Terms
                                     </VerticalNavLink>
                                 </RouterLink>
-                                <hr class="m-2" />
-                                <RouterLink :to="{ name: 'business.settings.index' }" custom
-                                    v-slot="{ href, route, navigate, isActive, isExactActive }">
-                                    <VerticalNavLink :active="isActive" :href="href" @click="navigate">
-                                        Default Settings
-                                    </VerticalNavLink>
-                                </RouterLink>
                             </template>
                         </VerticalDropdown>
-                        <VerticalDropdown align="right" width="48" label="Tools" icon="handyman" :active="
-                            route.name == 'tools.closebook.index'
+                        <VerticalDropdown align="right" width="48" label="Book" icon="book" :active="
+                            route.name == 'book.close.index' ||
+                            route.name == 'book.samples.index' ||
+                            route.name == 'book.download_upload.index' ||
+                            route.name == 'book.settings.index'
                         ">
                             <template #content>
-                                <RouterLink :to="{ name: 'tools.closebook.index' }" custom
+                                <RouterLink :to="{ name: 'book.close.index' }" custom
                                     v-slot="{ href, route, navigate, isActive, isExactActive }">
                                     <VerticalNavLink :active="isActive" :href="href" @click="navigate">
-                                        Close Book
+                                        Close
+                                    </VerticalNavLink>
+                                </RouterLink>
+                                <RouterLink :to="{ name: 'book.samples.index' }" custom
+                                    v-slot="{ href, route, navigate, isActive, isExactActive }">
+                                    <VerticalNavLink :active="isActive" :href="href" @click="navigate">
+                                        Samples
+                                    </VerticalNavLink>
+                                </RouterLink>
+                                <RouterLink :to="{ name: 'book.download_upload.index' }" custom
+                                    v-slot="{ href, route, navigate, isActive, isExactActive }">
+                                    <VerticalNavLink :active="isActive" :href="href" @click="navigate">
+                                        Download/Upload
+                                    </VerticalNavLink>
+                                </RouterLink>
+                                <RouterLink :to="{ name: 'book.settings.index' }" custom
+                                    v-slot="{ href, route, navigate, isActive, isExactActive }">
+                                    <VerticalNavLink :active="isActive" :href="href" @click="navigate">
+                                        Settings
                                     </VerticalNavLink>
                                 </RouterLink>
                             </template>
@@ -194,8 +207,7 @@ export default {
                             route.name == 'business.employees.index' ||
                             route.name == 'business.jobs.index' ||
                             route.name == 'business.taxtables.index' ||
-                            route.name == 'business.billterms.index' ||
-                            route.name == 'business.settings.index'
+                            route.name == 'business.billterms.index'
                         ">
                             <template #content>
                                 <RouterLink :to="{ name: 'business.payment.index' }" custom
@@ -248,11 +260,37 @@ export default {
                                         Bill Terms
                                     </VerticalNavLink>
                                 </RouterLink>
-                                <hr class="m-2" />
-                                <RouterLink :to="{ name: 'business.settings.index' }" custom
+                            </template>
+                        </VerticalDropdown>
+                        <VerticalDropdown align="right" width="48" label="Book" icon="book" :active="
+                            route.name == 'book.close.index' ||
+                            route.name == 'book.samples.index' ||
+                            route.name == 'book.download_upload.index' ||
+                            route.name == 'book.settings.index'
+                        ">
+                            <template #content>
+                                <RouterLink :to="{ name: 'book.close.index' }" custom
                                     v-slot="{ href, route, navigate, isActive, isExactActive }">
                                     <VerticalNavLink :active="isActive" :href="href" @click="navigate">
-                                        Default Settings
+                                        Close
+                                    </VerticalNavLink>
+                                </RouterLink>
+                                <RouterLink :to="{ name: 'book.samples.index' }" custom
+                                    v-slot="{ href, route, navigate, isActive, isExactActive }">
+                                    <VerticalNavLink :active="isActive" :href="href" @click="navigate">
+                                        Samples
+                                    </VerticalNavLink>
+                                </RouterLink>
+                                <RouterLink :to="{ name: 'book.download_upload.index' }" custom
+                                    v-slot="{ href, route, navigate, isActive, isExactActive }">
+                                    <VerticalNavLink :active="isActive" :href="href" @click="navigate">
+                                        Download/Upload
+                                    </VerticalNavLink>
+                                </RouterLink>
+                                <RouterLink :to="{ name: 'book.settings.index' }" custom
+                                    v-slot="{ href, route, navigate, isActive, isExactActive }">
+                                    <VerticalNavLink :active="isActive" :href="href" @click="navigate">
+                                        Settings
                                     </VerticalNavLink>
                                 </RouterLink>
                             </template>
