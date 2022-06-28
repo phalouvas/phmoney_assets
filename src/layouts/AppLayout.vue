@@ -161,14 +161,26 @@ export default {
                                 Reports
                             </VerticalNavLink>
                         </RouterLink>
-                        <VerticalDropdown align="right" width="48" label="Import" icon="upload" :active="
+                        <VerticalDropdown align="right" width="48" label="Import" icon="file_upload" :active="
                             route.name == 'import.transactions_from_csv.page1'
                         ">
                             <template #content>
                                 <RouterLink :to="{ name: 'import.transactions_from_csv.page1' }" custom
                                     v-slot="{ href, route, navigate, isActive, isExactActive }">
                                     <VerticalNavLink :active="isActive" :href="href" @click="navigate">
-                                        Transactions from Csv
+                                        Transactions from CSV...
+                                    </VerticalNavLink>
+                                </RouterLink>
+                            </template>
+                        </VerticalDropdown>
+                        <VerticalDropdown align="right" width="48" label="Export" icon="file_download" :active="
+                            route.name == 'export.transactions_to_csv.index'
+                        ">
+                            <template #content>
+                                <RouterLink :to="{ name: 'export.transactions_to_csv.index' }" custom
+                                    v-slot="{ href, route, navigate, isActive, isExactActive }">
+                                    <VerticalNavLink :active="isActive" :href="href" @click="navigate">
+                                        Transactions to CSV...
                                     </VerticalNavLink>
                                 </RouterLink>
                             </template>
@@ -301,14 +313,26 @@ export default {
                                 Reports
                             </VerticalNavLink>
                         </RouterLink>
-                        <VerticalDropdown align="right" width="48" label="Import" icon="upload" :active="
+                        <VerticalDropdown align="right" width="48" label="Import" icon="file_upload" :active="
                             route.name == 'import.transactions_from_csv.page1'
                         ">
                             <template #content>
                                 <RouterLink :to="{ name: 'import.transactions_from_csv.page1' }" custom
                                     v-slot="{ href, route, navigate, isActive, isExactActive }">
                                     <VerticalNavLink :active="isActive" :href="href" @click="navigate">
-                                        Transactions from Csv
+                                        Transactions from CSV...
+                                    </VerticalNavLink>
+                                </RouterLink>
+                            </template>
+                        </VerticalDropdown>
+                        <VerticalDropdown align="right" width="48" label="Export" icon="file_download" :active="
+                            route.name == 'export.transactions_to_csv.index'
+                        ">
+                            <template #content>
+                                <RouterLink :to="{ name: 'export.transactions_to_csv.index' }" custom
+                                    v-slot="{ href, route, navigate, isActive, isExactActive }">
+                                    <VerticalNavLink :active="isActive" :href="href" @click="navigate">
+                                        Transactions to CSV...
                                     </VerticalNavLink>
                                 </RouterLink>
                             </template>

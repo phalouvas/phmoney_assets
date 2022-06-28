@@ -37,7 +37,7 @@ export const store = reactive({
     num: null,
     date_start: null,
     date_end: null,
-},
+  },
 
   /**
    * Send axios get request
@@ -182,6 +182,22 @@ export const store = reactive({
         this.user = null;
       });
     return this.user
+  },
+
+  /**
+   * Download content from browser
+   * 
+   * @param content 
+   * @param file_name 
+   * @param content_type 
+   */
+  download(content: string, file_name: string, content_type: string) {
+    var pom = document.createElement('a');
+    var blob = new Blob([content], { type: content_type });
+    var url = URL.createObjectURL(blob);
+    pom.href = url;
+    pom.setAttribute('download', file_name);
+    pom.click();
   },
 
 })

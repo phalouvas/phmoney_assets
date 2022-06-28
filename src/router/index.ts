@@ -249,6 +249,11 @@ const router = createRouter({
       component: () => import('../views/import/transactions_from_csv/TransactionsFromCsvPage4.vue'),
     },
     {
+      path: '/export/transactions_to_csv/index',
+      name: 'export.transactions_to_csv.index',
+      component: () => import('../views/export/transactions_to_csv/ExportTransactionsToCsv.vue'),
+    },
+    {
       path: '/book/close/index',
       name: 'book.close.index',
       component: () => import('../views/book/BookCloseIndex.vue'),
