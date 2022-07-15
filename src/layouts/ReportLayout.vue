@@ -160,8 +160,8 @@ export default {
                                     <form-label for="accounts" value="Accounts" />
                                     <select multiple v-model="store.report_settings.params.accounts"
                                         class="border-gray-300 focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50 rounded-md shadow-sm">
-                                        <option v-for="account in store.props.accounts" :key="account.guid"
-                                            :value="account.guid">
+                                        <option v-for="account in store.props.accounts" :key="account.pk"
+                                            :value="account.pk">
                                             {{ account.name_indent }}
                                         </option>
                                     </select>
