@@ -3,7 +3,7 @@ import ReportsAssetsLiabilitiesGeneralLedger from '@/components/reports/ReportsA
 </script>
 
 <template>
-  <ReportLayout title="General Ledger" :extra_params="extra_params">
+  <ReportLayout title="General Ledger" :show_export_csv="true">
     <div class="bg-white shadow mt-4 prose max-w-none">
       <ReportsAssetsLiabilitiesGeneralLedger v-if="store.props.currency && !store.processing" />
     </div>
