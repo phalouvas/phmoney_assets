@@ -7,6 +7,8 @@
         </h2>
         <table class="w-full table-fixed">
             <thead>
+                <th><span v-show="store.report_settings.params.date">Account Name</span></th>
+                <th><span v-show="store.report_settings.params.date">Account Code</span></th>
                 <th><span v-show="store.report_settings.params.date">Date</span></th>
                 <th><span v-show="store.report_settings.params.num">Num</span></th>
                 <th><span v-show="store.report_settings.params.description">Description</span></th>
@@ -17,7 +19,7 @@
         <table class="w-full table-fixed" v-for="item in store.props.rows" :key="item.guid">
             <thead>
                 <tr>
-                    <th colspan="4">Total for {{ item.name }}</th>
+                    <th colspan="4">Total for {{ item.code }} {{ item.name }}</th>
                     <th class="text-right">
                         <amount-financial :amount="item.total" :commodity="item.commodity" />
                     </th>
@@ -25,6 +27,8 @@
             </thead>
             <tbody>
                 <tr v-for="split in item.rows" :key="split.split_guid">
+                    <td><span v-show="store.report_settings.params.name">{{ split.name }}</span></td>
+                    <td><span v-show="store.report_settings.params.code">{{ split.code }}</span></td>
                     <td><span v-show="store.report_settings.params.date">{{ store.convert_date(split.post_date)
                     }}</span></td>
                     <td><span v-show="store.report_settings.params.num">{{ split.num }}</span></td>
