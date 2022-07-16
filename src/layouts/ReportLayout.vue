@@ -39,7 +39,7 @@ export default {
             if (this.store.report_settings.type !== 'phmoney/' + path) {
                 await this.store.get(`${import.meta.env.VITE_ROOT}${path}`, { 'export_csv': false });
                 let common_params = {
-                    accounts: null,
+                    accounts: [],
                     date_start: this.store.user.options.accounting_period.date_start,
                     date_end: this.store.user.options.accounting_period.date_end,
                     title: null,

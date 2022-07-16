@@ -3,7 +3,7 @@
 
     <h2 class="text-center">
       {{ store.props.company }} {{ store.props.title }}
-      For Period Covering {{ store.convert_date(store.props.date_start) }} to {{ store.convert_date(store.props.date_end) }}
+      {{ store.convert_date(store.props.date_end) }}
     </h2>
 
     <div class="overflow-x-auto">
