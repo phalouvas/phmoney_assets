@@ -23,6 +23,10 @@ export default {
             type: Boolean,
             default: false,
         },
+        show_export_json: {
+            type: Boolean,
+            default: false,
+        },
     },
 
     data() {
@@ -196,7 +200,12 @@ export default {
                             </form-secondary-button>
                             <form-secondary-button title="Export Csv" v-if="show_export_csv">
                                 <a :href="`${store.responseURL}&export_csv=true`">
-                                    <span class="material-icons-outlined"> file_download </span>
+                                    <span class="material-icons-outlined"> text_snippet </span>
+                                </a>
+                            </form-secondary-button>
+                            <form-secondary-button title="Export Json" v-if="show_export_json">
+                                <a :href="`${store.responseURL}&export_json=true`">
+                                    <span class="material-icons-outlined"> table_view </span>
                                 </a>
                             </form-secondary-button>
                             <form-secondary-button @click="$router.back()" title="Close">

@@ -20,7 +20,7 @@ export default {
 </script>
 
 <template>
-  <ReportLayout title="Transactions Report" :extra_params="extra_params" :show_export_csv="true">
+  <ReportLayout title="Transactions Report" :extra_params="extra_params" :show_export_csv="true" :show_export_json="true">
     <template #settings>
       <div class="font-bold">Display</div>
       <div class="flex gap-2">
