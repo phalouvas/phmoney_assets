@@ -77,7 +77,6 @@ export default {
                     <th>Date</th>
                     <th>Num</th>
                     <th>Description</th>
-                    <th>Account</th>
                     <th>R</th>
                     <th>Debit</th>
                     <th>Credit</th>
@@ -93,27 +92,22 @@ export default {
             </thead>
             <tbody>
                 <tr v-for="split in store.props.splits.data" :key="split.id" :split="split" class="hover:bg-sky-50">
-                    <td>{{ split.transaction.post_date }}</td>
-                    <td class="truncate" :title="split.transaction.num">
-                        {{ split.transaction.num }}
+                    <td>{{ split.post_date }}</td>
+                    <td class="truncate" :title="split.num">
+                        {{ split.num }}
                     </td>
-                    <td class="truncate" :title="split.transaction.description">
-                        {{ split.transaction.description }}
+                    <td class="truncate" :title="split.description">
+                        {{ split.description }}
                     </td>
-                    <td class="truncate" :title="split.transaction.splits[0].account.name"
-                        v-if="split.transaction.splits.length == 1">
-                        {{ split.transaction.splits[0].account.name }}
-                    </td>
-                    <td v-else>-- Split Transaction --</td>
                     <td>{{ split.reconcile_state }}</td>
                     <td>
-                        <amount-financial :amount="split.debit" :commodity="split.account.commodity" />
+                        <amount-financial :amount="split.debit" :commodity="store.props.account.commodity" />
                     </td>
                     <td>
-                        <amount-financial :amount="split.credit" :commodity="split.account.commodity" />
+                        <amount-financial :amount="split.credit" :commodity="store.props.account.commodity" />
                     </td>
                     <td>
-                        <amount-financial :amount="split.balance" :commodity="split.account.commodity" />
+                        <amount-financial :amount="split.balance" :commodity="store.props.account.commodity" />
                     </td>
                     <td>
                         <div class="flex">
@@ -122,7 +116,7 @@ export default {
                                 <span class="material-icons-outlined">copy</span>
                             </div>
                             <RouterLink class="text-sky-500 hover:text-sky-300"
-                                :to="{ name: 'transactions.edit', params: { account_pk: store.props.account.pk, transaction_pk: split.transaction.pk } }"
+                                :to="{ name: 'transactions.edit', params: { account_pk: store.props.account.pk, transaction_pk: split.pk } }"
                                 title="Edit"><span class="material-icons-outlined">edit</span>
                             </RouterLink>
                             <div class="text-red-500 hover:text-red-300 hover:cursor-pointer" @click="destroy(split)"

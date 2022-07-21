@@ -11,7 +11,7 @@ export default defineComponent({
 
   computed: {
     format_amount: function () {
-      if (this.amount !== null && this.amount !== undefined && !this.commodity) {
+      if (this.amount === null || this.amount === undefined || !this.commodity) {
           return null;
       }
       let amount = Math.abs(this.amount);
