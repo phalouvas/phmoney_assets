@@ -111,6 +111,10 @@ export default {
                     </td>
                     <td>
                         <div class="flex">
+                            <RouterLink class="text-green-500 hover:text-green-300"
+                                :to="{ name: 'transactions.view', params: { account_pk: store.props.account.pk, transaction_pk: split.pk } }"
+                                title="Details"><span class="material-icons-outlined">source</span>
+                            </RouterLink>
                             <div class="text-yellow-500 hover:text-yellow-300 hover:cursor-pointer"
                                 @click="duplicate(split)" title="Duplicate">
                                 <span class="material-icons-outlined">copy</span>

@@ -79,6 +79,11 @@ const router = createRouter({
       component: () => import('../views/transactions/TransactionsCreate.vue'),
     },
     {
+      path: '/transactions/:account_pk/view/:transaction_pk',
+      name: 'transactions.view',
+      component: () => import('../views/transactions/TransactionsView.vue'),
+    },
+    {
       path: '/transactions/:account_pk/edit/:transaction_pk',
       name: 'transactions.edit',
       component: () => import('../views/transactions/TransactionsEdit.vue'),
