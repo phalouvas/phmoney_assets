@@ -284,6 +284,11 @@ const router = createRouter({
       component: () => import('../views/reports/ReportsIndex.vue'),
     },
     {
+      path: '/reports/account-summary',
+      name: 'reports.account-summary',
+      component: () => import('../views/reports/ReportsAccountSummary.vue'),
+    },
+    {
       path: '/reports/transactions',
       name: 'reports.transactions',
       component: () => import('../views/reports/ReportsTransactions.vue'),
