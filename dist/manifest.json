@@ -1,6 +1,6 @@
 {
   "src/main.ts": {
-    "file": "assets/main.ffef03e2.js",
+    "file": "assets/main.f659eac9.js",
     "src": "src/main.ts",
     "isEntry": true,
     "dynamicImports": [
@@ -78,16 +78,16 @@
     ]
   },
   "src/views/auth/AuthLogin.vue": {
-    "file": "assets/AuthLogin.e9eeb967.js",
+    "file": "assets/AuthLogin.4173ad8b.js",
     "src": "src/views/auth/AuthLogin.vue",
     "isDynamicEntry": true,
     "imports": [
       "src/main.ts",
-      "_AuthLayout.a26638c0.js"
+      "_AuthLayout.a276701e.js"
     ]
   },
-  "_AuthLayout.bfe54c4d.js": {
-    "file": "assets/AuthLayout.bfe54c4d.js",
+  "_AuthLayout.a276701e.js": {
+    "file": "assets/AuthLayout.a276701e.js",
     "imports": [
       "src/main.ts"
     ],
@@ -96,25 +96,25 @@
     ]
   },
   "src/views/auth/AuthRegister.vue": {
-    "file": "assets/AuthRegister.69e7ad1e.js",
+    "file": "assets/AuthRegister.7376eaf9.js",
     "src": "src/views/auth/AuthRegister.vue",
     "isDynamicEntry": true,
     "imports": [
       "src/main.ts",
-      "_AuthLayout.a26638c0.js"
+      "_AuthLayout.a276701e.js"
     ]
   },
   "src/views/auth/AuthForgotPassword.vue": {
-    "file": "assets/AuthForgotPassword.e3813e9d.js",
+    "file": "assets/AuthForgotPassword.daa62bd0.js",
     "src": "src/views/auth/AuthForgotPassword.vue",
     "isDynamicEntry": true,
     "imports": [
       "src/main.ts",
-      "_AuthLayout.a26638c0.js"
+      "_AuthLayout.a276701e.js"
     ]
   },
   "src/views/profile/ProfileShow.vue": {
-    "file": "assets/ProfileShow.915c1e57.js",
+    "file": "assets/ProfileShow.8b0c95c0.js",
     "src": "src/views/profile/ProfileShow.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -122,7 +122,7 @@
     ]
   },
   "src/views/api/ApiIndex.vue": {
-    "file": "assets/ApiIndex.55f6d7c6.js",
+    "file": "assets/ApiIndex.5fb8bcbf.js",
     "src": "src/views/api/ApiIndex.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -130,7 +130,7 @@
     ]
   },
   "src/views/teams/TeamsCreate.vue": {
-    "file": "assets/TeamsCreate.1de7b385.js",
+    "file": "assets/TeamsCreate.d5156839.js",
     "src": "src/views/teams/TeamsCreate.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -138,7 +138,7 @@
     ]
   },
   "src/views/teams/TeamsShow.vue": {
-    "file": "assets/TeamsShow.2b6fa911.js",
+    "file": "assets/TeamsShow.982bcbc7.js",
     "src": "src/views/teams/TeamsShow.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -146,7 +146,7 @@
     ]
   },
   "src/views/accounts/AccountsIndex.vue": {
-    "file": "assets/AccountsIndex.87b5f951.js",
+    "file": "assets/AccountsIndex.b52e7dee.js",
     "src": "src/views/accounts/AccountsIndex.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -154,31 +154,31 @@
     ]
   },
   "src/views/accounts/AccountsCreate.vue": {
-    "file": "assets/AccountsCreate.e428da76.js",
+    "file": "assets/AccountsCreate.eb42558a.js",
     "src": "src/views/accounts/AccountsCreate.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_AccountsEdit.2f7965f7.js"
+      "_AccountsEdit.616a1a23.js",
+      "src/main.ts"
     ]
   },
-  "_AccountsEdit.ad1b13f4.js": {
-    "file": "assets/AccountsEdit.ad1b13f4.js",
+  "_AccountsEdit.616a1a23.js": {
+    "file": "assets/AccountsEdit.616a1a23.js",
     "imports": [
       "src/main.ts"
     ]
   },
   "src/views/accounts/AccountsEdit.vue": {
-    "file": "assets/AccountsEdit.d018f6d6.js",
+    "file": "assets/AccountsEdit.a357a6d5.js",
     "src": "src/views/accounts/AccountsEdit.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_AccountsEdit.2f7965f7.js"
+      "_AccountsEdit.616a1a23.js",
+      "src/main.ts"
     ]
   },
   "src/views/reconcile/ReconcileIndex.vue": {
-    "file": "assets/ReconcileIndex.b77951b4.js",
+    "file": "assets/ReconcileIndex.b97be727.js",
     "src": "src/views/reconcile/ReconcileIndex.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -186,7 +186,7 @@
     ]
   },
   "src/views/transactions/TransactionsIndex.vue": {
-    "file": "assets/TransactionsIndex.4d3761b3.js",
+    "file": "assets/TransactionsIndex.1f07a880.js",
     "src": "src/views/transactions/TransactionsIndex.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -194,22 +194,22 @@
     ]
   },
   "src/views/transactions/TransactionsCreate.vue": {
-    "file": "assets/TransactionsCreate.188cac69.js",
+    "file": "assets/TransactionsCreate.02af40fa.js",
     "src": "src/views/transactions/TransactionsCreate.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_TransactionsEdit.254759af.js"
+      "_TransactionsEdit.b456d1d5.js",
+      "src/main.ts"
     ]
   },
-  "_TransactionsEdit.fb4ae9aa.js": {
-    "file": "assets/TransactionsEdit.fb4ae9aa.js",
+  "_TransactionsEdit.b456d1d5.js": {
+    "file": "assets/TransactionsEdit.b456d1d5.js",
     "imports": [
       "src/main.ts"
     ]
   },
   "src/views/transactions/TransactionsView.vue": {
-    "file": "assets/TransactionsView.10b808e7.js",
+    "file": "assets/TransactionsView.3ee88d85.js",
     "src": "src/views/transactions/TransactionsView.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -217,16 +217,16 @@
     ]
   },
   "src/views/transactions/TransactionsEdit.vue": {
-    "file": "assets/TransactionsEdit.b6280bc9.js",
+    "file": "assets/TransactionsEdit.7bf1a495.js",
     "src": "src/views/transactions/TransactionsEdit.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_TransactionsEdit.254759af.js"
+      "_TransactionsEdit.b456d1d5.js",
+      "src/main.ts"
     ]
   },
   "src/views/business/payment/PaymentIndex.vue": {
-    "file": "assets/PaymentIndex.fe8e417e.js",
+    "file": "assets/PaymentIndex.e77504dc.js",
     "src": "src/views/business/payment/PaymentIndex.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -234,7 +234,7 @@
     ]
   },
   "src/views/business/invoices/InvoicesIndex.vue": {
-    "file": "assets/InvoicesIndex.d0681f5a.js",
+    "file": "assets/InvoicesIndex.44b04716.js",
     "src": "src/views/business/invoices/InvoicesIndex.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -242,31 +242,31 @@
     ]
   },
   "src/views/business/invoices/InvoicesCreate.vue": {
-    "file": "assets/InvoicesCreate.7f69d761.js",
+    "file": "assets/InvoicesCreate.c16d3c02.js",
     "src": "src/views/business/invoices/InvoicesCreate.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_InvoicesEdit.3a671c9b.js"
+      "_InvoicesEdit.71296756.js",
+      "src/main.ts"
     ]
   },
-  "_InvoicesEdit.3a35b83f.js": {
-    "file": "assets/InvoicesEdit.3a35b83f.js",
+  "_InvoicesEdit.71296756.js": {
+    "file": "assets/InvoicesEdit.71296756.js",
     "imports": [
       "src/main.ts"
     ]
   },
   "src/views/business/invoices/InvoicesEdit.vue": {
-    "file": "assets/InvoicesEdit.21935cc9.js",
+    "file": "assets/InvoicesEdit.69867aea.js",
     "src": "src/views/business/invoices/InvoicesEdit.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_InvoicesEdit.3a671c9b.js"
+      "_InvoicesEdit.71296756.js",
+      "src/main.ts"
     ]
   },
   "src/views/business/invoices/InvoicesPost.vue": {
-    "file": "assets/InvoicesPost.84e4ce1b.js",
+    "file": "assets/InvoicesPost.7957ec5e.js",
     "src": "src/views/business/invoices/InvoicesPost.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -274,7 +274,7 @@
     ]
   },
   "src/views/business/invoices/entrys/EntrysIndex.vue": {
-    "file": "assets/EntrysIndex.c7c76c7b.js",
+    "file": "assets/EntrysIndex.2cd2b864.js",
     "src": "src/views/business/invoices/entrys/EntrysIndex.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -282,31 +282,31 @@
     ]
   },
   "src/views/business/invoices/entrys/EntrysCreate.vue": {
-    "file": "assets/EntrysCreate.bfdfa659.js",
+    "file": "assets/EntrysCreate.4b551899.js",
     "src": "src/views/business/invoices/entrys/EntrysCreate.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_EntrysEditVoucher.e003dc62.js"
+      "_EntrysEditVoucher.b57751ef.js",
+      "src/main.ts"
     ]
   },
-  "_EntrysEditVoucher.684f9ec7.js": {
-    "file": "assets/EntrysEditVoucher.684f9ec7.js",
+  "_EntrysEditVoucher.b57751ef.js": {
+    "file": "assets/EntrysEditVoucher.b57751ef.js",
     "imports": [
       "src/main.ts"
     ]
   },
   "src/views/business/invoices/entrys/EntrysEdit.vue": {
-    "file": "assets/EntrysEdit.bceb35b7.js",
+    "file": "assets/EntrysEdit.80e7e569.js",
     "src": "src/views/business/invoices/entrys/EntrysEdit.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_EntrysEditVoucher.e003dc62.js"
+      "_EntrysEditVoucher.b57751ef.js",
+      "src/main.ts"
     ]
   },
   "src/views/business/customers/CustomersIndex.vue": {
-    "file": "assets/CustomersIndex.9002a8b5.js",
+    "file": "assets/CustomersIndex.5a233bc8.js",
     "src": "src/views/business/customers/CustomersIndex.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -314,31 +314,31 @@
     ]
   },
   "src/views/business/customers/CustomersCreate.vue": {
-    "file": "assets/CustomersCreate.eacd277f.js",
+    "file": "assets/CustomersCreate.edaf6914.js",
     "src": "src/views/business/customers/CustomersCreate.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_CustomersEdit.7908761f.js"
+      "_CustomersEdit.9f6dd582.js",
+      "src/main.ts"
     ]
   },
-  "_CustomersEdit.edc04ce0.js": {
-    "file": "assets/CustomersEdit.edc04ce0.js",
+  "_CustomersEdit.9f6dd582.js": {
+    "file": "assets/CustomersEdit.9f6dd582.js",
     "imports": [
       "src/main.ts"
     ]
   },
   "src/views/business/customers/CustomersEdit.vue": {
-    "file": "assets/CustomersEdit.592d66f8.js",
+    "file": "assets/CustomersEdit.1ce74b49.js",
     "src": "src/views/business/customers/CustomersEdit.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_CustomersEdit.7908761f.js"
+      "_CustomersEdit.9f6dd582.js",
+      "src/main.ts"
     ]
   },
   "src/views/business/vendors/VendorsIndex.vue": {
-    "file": "assets/VendorsIndex.69026768.js",
+    "file": "assets/VendorsIndex.2c1b1c68.js",
     "src": "src/views/business/vendors/VendorsIndex.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -346,31 +346,31 @@
     ]
   },
   "src/views/business/vendors/VendorsCreate.vue": {
-    "file": "assets/VendorsCreate.15d3e9fe.js",
+    "file": "assets/VendorsCreate.8f424d37.js",
     "src": "src/views/business/vendors/VendorsCreate.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_VendorsEdit.8ace8b68.js"
+      "_VendorsEdit.7dcc2cfc.js",
+      "src/main.ts"
     ]
   },
-  "_VendorsEdit.74792658.js": {
-    "file": "assets/VendorsEdit.74792658.js",
+  "_VendorsEdit.7dcc2cfc.js": {
+    "file": "assets/VendorsEdit.7dcc2cfc.js",
     "imports": [
       "src/main.ts"
     ]
   },
   "src/views/business/vendors/VendorsEdit.vue": {
-    "file": "assets/VendorsEdit.ca4bd7e7.js",
+    "file": "assets/VendorsEdit.06808849.js",
     "src": "src/views/business/vendors/VendorsEdit.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_VendorsEdit.8ace8b68.js"
+      "_VendorsEdit.7dcc2cfc.js",
+      "src/main.ts"
     ]
   },
   "src/views/business/employees/EmployeesIndex.vue": {
-    "file": "assets/EmployeesIndex.d13932c7.js",
+    "file": "assets/EmployeesIndex.09289d7e.js",
     "src": "src/views/business/employees/EmployeesIndex.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -378,31 +378,31 @@
     ]
   },
   "src/views/business/employees/EmployeesCreate.vue": {
-    "file": "assets/EmployeesCreate.eb6aae54.js",
+    "file": "assets/EmployeesCreate.9c7acb1e.js",
     "src": "src/views/business/employees/EmployeesCreate.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_EmployeesEdit.17c0f204.js"
+      "_EmployeesEdit.a4eecd1c.js",
+      "src/main.ts"
     ]
   },
-  "_EmployeesEdit.d80be215.js": {
-    "file": "assets/EmployeesEdit.d80be215.js",
+  "_EmployeesEdit.a4eecd1c.js": {
+    "file": "assets/EmployeesEdit.a4eecd1c.js",
     "imports": [
       "src/main.ts"
     ]
   },
   "src/views/business/employees/EmployeesEdit.vue": {
-    "file": "assets/EmployeesEdit.b8645766.js",
+    "file": "assets/EmployeesEdit.88a9a8c2.js",
     "src": "src/views/business/employees/EmployeesEdit.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_EmployeesEdit.17c0f204.js"
+      "_EmployeesEdit.a4eecd1c.js",
+      "src/main.ts"
     ]
   },
   "src/views/business/jobs/JobsIndex.vue": {
-    "file": "assets/JobsIndex.bab3eee0.js",
+    "file": "assets/JobsIndex.0c8bcaa0.js",
     "src": "src/views/business/jobs/JobsIndex.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -410,31 +410,31 @@
     ]
   },
   "src/views/business/jobs/JobsCreate.vue": {
-    "file": "assets/JobsCreate.9ffdbca8.js",
+    "file": "assets/JobsCreate.0dbb7a99.js",
     "src": "src/views/business/jobs/JobsCreate.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_JobsEdit.5c295b6b.js"
+      "_JobsEdit.9c91d49a.js",
+      "src/main.ts"
     ]
   },
-  "_JobsEdit.3b0024fd.js": {
-    "file": "assets/JobsEdit.3b0024fd.js",
+  "_JobsEdit.9c91d49a.js": {
+    "file": "assets/JobsEdit.9c91d49a.js",
     "imports": [
       "src/main.ts"
     ]
   },
   "src/views/business/jobs/JobsEdit.vue": {
-    "file": "assets/JobsEdit.29f1d540.js",
+    "file": "assets/JobsEdit.d3cb2854.js",
     "src": "src/views/business/jobs/JobsEdit.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_JobsEdit.5c295b6b.js"
+      "_JobsEdit.9c91d49a.js",
+      "src/main.ts"
     ]
   },
   "src/views/business/billterms/BilltermsIndex.vue": {
-    "file": "assets/BilltermsIndex.94339b1b.js",
+    "file": "assets/BilltermsIndex.41f6aa9a.js",
     "src": "src/views/business/billterms/BilltermsIndex.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -442,31 +442,31 @@
     ]
   },
   "src/views/business/billterms/BilltermsCreate.vue": {
-    "file": "assets/BilltermsCreate.db48bb0a.js",
+    "file": "assets/BilltermsCreate.f152bf2e.js",
     "src": "src/views/business/billterms/BilltermsCreate.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_BilltermsEdit.a98600eb.js"
+      "_BilltermsEdit.60563d45.js",
+      "src/main.ts"
     ]
   },
-  "_BilltermsEdit.2daf7d30.js": {
-    "file": "assets/BilltermsEdit.2daf7d30.js",
+  "_BilltermsEdit.60563d45.js": {
+    "file": "assets/BilltermsEdit.60563d45.js",
     "imports": [
       "src/main.ts"
     ]
   },
   "src/views/business/billterms/BilltermsEdit.vue": {
-    "file": "assets/BilltermsEdit.71bf44b0.js",
+    "file": "assets/BilltermsEdit.ccab41ac.js",
     "src": "src/views/business/billterms/BilltermsEdit.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_BilltermsEdit.a98600eb.js"
+      "_BilltermsEdit.60563d45.js",
+      "src/main.ts"
     ]
   },
   "src/views/business/taxtables/TaxtablesIndex.vue": {
-    "file": "assets/TaxtablesIndex.7bb08be0.js",
+    "file": "assets/TaxtablesIndex.a2d4c028.js",
     "src": "src/views/business/taxtables/TaxtablesIndex.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -474,7 +474,7 @@
     ]
   },
   "src/views/business/taxtables/TaxtablesCreate.vue": {
-    "file": "assets/TaxtablesCreate.b6b77a63.js",
+    "file": "assets/TaxtablesCreate.440dff2d.js",
     "src": "src/views/business/taxtables/TaxtablesCreate.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -482,7 +482,7 @@
     ]
   },
   "src/views/business/taxtables/TaxtablesEdit.vue": {
-    "file": "assets/TaxtablesEdit.07f66709.js",
+    "file": "assets/TaxtablesEdit.8d99417d.js",
     "src": "src/views/business/taxtables/TaxtablesEdit.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -490,7 +490,7 @@
     ]
   },
   "src/views/business/taxtables/entrys/TaxtablesEntrysIndex.vue": {
-    "file": "assets/TaxtablesEntrysIndex.2fc2642b.js",
+    "file": "assets/TaxtablesEntrysIndex.3b203e57.js",
     "src": "src/views/business/taxtables/entrys/TaxtablesEntrysIndex.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -498,31 +498,31 @@
     ]
   },
   "src/views/business/taxtables/entrys/TaxtablesEntrysCreate.vue": {
-    "file": "assets/TaxtablesEntrysCreate.8e054a3c.js",
+    "file": "assets/TaxtablesEntrysCreate.f950d4cc.js",
     "src": "src/views/business/taxtables/entrys/TaxtablesEntrysCreate.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_TaxtablesEntrysEdit.3fdcd48e.js"
+      "_TaxtablesEntrysEdit.76da69f7.js",
+      "src/main.ts"
     ]
   },
-  "_TaxtablesEntrysEdit.794c0881.js": {
-    "file": "assets/TaxtablesEntrysEdit.794c0881.js",
+  "_TaxtablesEntrysEdit.76da69f7.js": {
+    "file": "assets/TaxtablesEntrysEdit.76da69f7.js",
     "imports": [
       "src/main.ts"
     ]
   },
   "src/views/business/taxtables/entrys/TaxtablesEntrysEdit.vue": {
-    "file": "assets/TaxtablesEntrysEdit.dbe28374.js",
+    "file": "assets/TaxtablesEntrysEdit.c2e39129.js",
     "src": "src/views/business/taxtables/entrys/TaxtablesEntrysEdit.vue",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.ts",
-      "_TaxtablesEntrysEdit.3fdcd48e.js"
+      "_TaxtablesEntrysEdit.76da69f7.js",
+      "src/main.ts"
     ]
   },
   "src/views/import/transactions_from_csv/TransactionsFromCsvPage1.vue": {
-    "file": "assets/TransactionsFromCsvPage1.6123d50f.js",
+    "file": "assets/TransactionsFromCsvPage1.43b72ad8.js",
     "src": "src/views/import/transactions_from_csv/TransactionsFromCsvPage1.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -530,7 +530,7 @@
     ]
   },
   "src/views/import/transactions_from_csv/TransactionsFromCsvPage2.vue": {
-    "file": "assets/TransactionsFromCsvPage2.73be73d0.js",
+    "file": "assets/TransactionsFromCsvPage2.4696e9f2.js",
     "src": "src/views/import/transactions_from_csv/TransactionsFromCsvPage2.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -538,7 +538,7 @@
     ]
   },
   "src/views/import/transactions_from_csv/TransactionsFromCsvPage3.vue": {
-    "file": "assets/TransactionsFromCsvPage3.6c401e00.js",
+    "file": "assets/TransactionsFromCsvPage3.1b3872db.js",
     "src": "src/views/import/transactions_from_csv/TransactionsFromCsvPage3.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -546,7 +546,7 @@
     ]
   },
   "src/views/import/transactions_from_csv/TransactionsFromCsvPage4.vue": {
-    "file": "assets/TransactionsFromCsvPage4.9d5a3684.js",
+    "file": "assets/TransactionsFromCsvPage4.f0006906.js",
     "src": "src/views/import/transactions_from_csv/TransactionsFromCsvPage4.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -554,7 +554,7 @@
     ]
   },
   "src/views/export/transactions_to_csv/ExportTransactionsToCsv.vue": {
-    "file": "assets/ExportTransactionsToCsv.3ae3ea16.js",
+    "file": "assets/ExportTransactionsToCsv.423a3c75.js",
     "src": "src/views/export/transactions_to_csv/ExportTransactionsToCsv.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -562,7 +562,7 @@
     ]
   },
   "src/views/book/BookCloseIndex.vue": {
-    "file": "assets/BookCloseIndex.3b781d78.js",
+    "file": "assets/BookCloseIndex.f8ae2d42.js",
     "src": "src/views/book/BookCloseIndex.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -570,7 +570,7 @@
     ]
   },
   "src/views/book/BookSamplesIndex.vue": {
-    "file": "assets/BookSamplesIndex.1a1da308.js",
+    "file": "assets/BookSamplesIndex.55d568ae.js",
     "src": "src/views/book/BookSamplesIndex.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -578,7 +578,7 @@
     ]
   },
   "src/views/book/BookDownloadUploadIndex.vue": {
-    "file": "assets/BookDownloadUploadIndex.e5174d7f.js",
+    "file": "assets/BookDownloadUploadIndex.ea542efc.js",
     "src": "src/views/book/BookDownloadUploadIndex.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -586,7 +586,7 @@
     ]
   },
   "src/views/book/BookSettingsIndex.vue": {
-    "file": "assets/BookSettingsIndex.13b520f6.js",
+    "file": "assets/BookSettingsIndex.4f0cd063.js",
     "src": "src/views/book/BookSettingsIndex.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -594,15 +594,23 @@
     ]
   },
   "src/views/reports/ReportsIndex.vue": {
-    "file": "assets/ReportsIndex.256683ff.js",
+    "file": "assets/ReportsIndex.a918fae8.js",
     "src": "src/views/reports/ReportsIndex.vue",
     "isDynamicEntry": true,
     "imports": [
       "src/main.ts"
     ]
   },
+  "src/views/reports/ReportsAccountSummary.vue": {
+    "file": "assets/ReportsAccountSummary.6dfa311a.js",
+    "src": "src/views/reports/ReportsAccountSummary.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.ts"
+    ]
+  },
   "src/views/reports/ReportsTransactions.vue": {
-    "file": "assets/ReportsTransactions.15d04304.js",
+    "file": "assets/ReportsTransactions.915bf0a9.js",
     "src": "src/views/reports/ReportsTransactions.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -610,7 +618,7 @@
     ]
   },
   "src/views/reports/ReportsChartColumn.vue": {
-    "file": "assets/ReportsChartColumn.f07d31ec.js",
+    "file": "assets/ReportsChartColumn.28d6f2ac.js",
     "src": "src/views/reports/ReportsChartColumn.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -618,7 +626,7 @@
     ]
   },
   "src/views/reports/ReportsChartPie.vue": {
-    "file": "assets/ReportsChartPie.a318bd32.js",
+    "file": "assets/ReportsChartPie.50428a76.js",
     "src": "src/views/reports/ReportsChartPie.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -626,7 +634,7 @@
     ]
   },
   "src/views/reports/ReportsAssetsLiabilitiesBalanceSheet.vue": {
-    "file": "assets/ReportsAssetsLiabilitiesBalanceSheet.60a35727.js",
+    "file": "assets/ReportsAssetsLiabilitiesBalanceSheet.ac2acce2.js",
     "src": "src/views/reports/ReportsAssetsLiabilitiesBalanceSheet.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -634,7 +642,7 @@
     ]
   },
   "src/views/reports/ReportsAssetsLiabilitiesGeneralLedger.vue": {
-    "file": "assets/ReportsAssetsLiabilitiesGeneralLedger.b9a73241.js",
+    "file": "assets/ReportsAssetsLiabilitiesGeneralLedger.3d10702c.js",
     "src": "src/views/reports/ReportsAssetsLiabilitiesGeneralLedger.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -642,7 +650,7 @@
     ]
   },
   "src/views/reports/ReportsChartLine.vue": {
-    "file": "assets/ReportsChartLine.e5846e9c.js",
+    "file": "assets/ReportsChartLine.b9353b5f.js",
     "src": "src/views/reports/ReportsChartLine.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -650,7 +658,7 @@
     ]
   },
   "src/views/reports/ReportsBusinessCustomerReport.vue": {
-    "file": "assets/ReportsBusinessCustomerReport.4a56e601.js",
+    "file": "assets/ReportsBusinessCustomerReport.6c71a432.js",
     "src": "src/views/reports/ReportsBusinessCustomerReport.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -658,7 +666,7 @@
     ]
   },
   "src/views/reports/ReportsBusinessCustomerSummary.vue": {
-    "file": "assets/ReportsBusinessCustomerSummary.9b9640fe.js",
+    "file": "assets/ReportsBusinessCustomerSummary.0b8e3567.js",
     "src": "src/views/reports/ReportsBusinessCustomerSummary.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -666,7 +674,7 @@
     ]
   },
   "src/views/reports/ReportsBusinessEmployeeReport.vue": {
-    "file": "assets/ReportsBusinessEmployeeReport.250ce385.js",
+    "file": "assets/ReportsBusinessEmployeeReport.d7af7e3a.js",
     "src": "src/views/reports/ReportsBusinessEmployeeReport.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -674,7 +682,7 @@
     ]
   },
   "src/views/reports/ReportsBusinessVendorReport.vue": {
-    "file": "assets/ReportsBusinessVendorReport.1a9f6fe4.js",
+    "file": "assets/ReportsBusinessVendorReport.26a92318.js",
     "src": "src/views/reports/ReportsBusinessVendorReport.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -682,7 +690,7 @@
     ]
   },
   "src/views/reports/ReportsIncomeExpenseCashFlow.vue": {
-    "file": "assets/ReportsIncomeExpenseCashFlow.5cdcec00.js",
+    "file": "assets/ReportsIncomeExpenseCashFlow.085bdaa0.js",
     "src": "src/views/reports/ReportsIncomeExpenseCashFlow.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -690,7 +698,7 @@
     ]
   },
   "src/views/reports/ReportsIncomeExpenseProfitLoss.vue": {
-    "file": "assets/ReportsIncomeExpenseProfitLoss.dc79b8d3.js",
+    "file": "assets/ReportsIncomeExpenseProfitLoss.1a89eaf8.js",
     "src": "src/views/reports/ReportsIncomeExpenseProfitLoss.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -698,1466 +706,9 @@
     ]
   },
   "src/views/reports/ReportsIncomeExpenseTrialBalance.vue": {
-    "file": "assets/ReportsIncomeExpenseTrialBalance.09673d70.js",
+    "file": "assets/ReportsIncomeExpenseTrialBalance.254e19e1.js",
     "src": "src/views/reports/ReportsIncomeExpenseTrialBalance.vue",
     "isDynamicEntry": true,
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.7efce183.js": {
-    "file": "assets/AuthLayout.7efce183.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.b3b841d7.js": {
-    "file": "assets/AccountsEdit.b3b841d7.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.ad709575.js": {
-    "file": "assets/TransactionsEdit.ad709575.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.a07381e5.js": {
-    "file": "assets/InvoicesEdit.a07381e5.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.74a83d72.js": {
-    "file": "assets/EntrysEditVoucher.74a83d72.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.5c22fea4.js": {
-    "file": "assets/CustomersEdit.5c22fea4.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.ddc58d19.js": {
-    "file": "assets/VendorsEdit.ddc58d19.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.35e3dfc4.js": {
-    "file": "assets/EmployeesEdit.35e3dfc4.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.66acf947.js": {
-    "file": "assets/JobsEdit.66acf947.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.fa12b8d0.js": {
-    "file": "assets/BilltermsEdit.fa12b8d0.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.76618415.js": {
-    "file": "assets/TaxtablesEntrysEdit.76618415.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.405a0a96.js": {
-    "file": "assets/AuthLayout.405a0a96.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.304e7c2a.js": {
-    "file": "assets/AccountsEdit.304e7c2a.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.33ff0c2f.js": {
-    "file": "assets/TransactionsEdit.33ff0c2f.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.6ce7416a.js": {
-    "file": "assets/InvoicesEdit.6ce7416a.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.1e878ca0.js": {
-    "file": "assets/EntrysEditVoucher.1e878ca0.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.7c41e027.js": {
-    "file": "assets/CustomersEdit.7c41e027.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.6a9b34a3.js": {
-    "file": "assets/VendorsEdit.6a9b34a3.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.d8d9eb1c.js": {
-    "file": "assets/EmployeesEdit.d8d9eb1c.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.d7d54db3.js": {
-    "file": "assets/JobsEdit.d7d54db3.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.abe7d1f2.js": {
-    "file": "assets/BilltermsEdit.abe7d1f2.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.71df462e.js": {
-    "file": "assets/TaxtablesEntrysEdit.71df462e.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.75536d25.js": {
-    "file": "assets/AuthLayout.75536d25.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.1bb6ee0c.js": {
-    "file": "assets/AccountsEdit.1bb6ee0c.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.6f297b79.js": {
-    "file": "assets/TransactionsEdit.6f297b79.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.028788ef.js": {
-    "file": "assets/InvoicesEdit.028788ef.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.f3aa3941.js": {
-    "file": "assets/EntrysEditVoucher.f3aa3941.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.3e2c24bd.js": {
-    "file": "assets/CustomersEdit.3e2c24bd.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.bdca30e0.js": {
-    "file": "assets/VendorsEdit.bdca30e0.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.69bbb3a8.js": {
-    "file": "assets/EmployeesEdit.69bbb3a8.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.2ca7f003.js": {
-    "file": "assets/JobsEdit.2ca7f003.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.f903bc2b.js": {
-    "file": "assets/BilltermsEdit.f903bc2b.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.2252fa06.js": {
-    "file": "assets/TaxtablesEntrysEdit.2252fa06.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.5702ef6c.js": {
-    "file": "assets/AuthLayout.5702ef6c.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.f3181c16.js": {
-    "file": "assets/AccountsEdit.f3181c16.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.0e008c10.js": {
-    "file": "assets/TransactionsEdit.0e008c10.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.c28abdf2.js": {
-    "file": "assets/InvoicesEdit.c28abdf2.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.9f100ab3.js": {
-    "file": "assets/EntrysEditVoucher.9f100ab3.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.a0e4312d.js": {
-    "file": "assets/CustomersEdit.a0e4312d.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.b2e27c06.js": {
-    "file": "assets/VendorsEdit.b2e27c06.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.b79c070a.js": {
-    "file": "assets/EmployeesEdit.b79c070a.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.b2cf67c2.js": {
-    "file": "assets/JobsEdit.b2cf67c2.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.94deb962.js": {
-    "file": "assets/BilltermsEdit.94deb962.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.1ca98043.js": {
-    "file": "assets/TaxtablesEntrysEdit.1ca98043.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.449036ff.js": {
-    "file": "assets/AuthLayout.449036ff.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.ef2ac395.js": {
-    "file": "assets/AccountsEdit.ef2ac395.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.6a8e686f.js": {
-    "file": "assets/TransactionsEdit.6a8e686f.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.4fcedc16.js": {
-    "file": "assets/InvoicesEdit.4fcedc16.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.269ce674.js": {
-    "file": "assets/EntrysEditVoucher.269ce674.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.97127713.js": {
-    "file": "assets/CustomersEdit.97127713.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.0c7f36d4.js": {
-    "file": "assets/VendorsEdit.0c7f36d4.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.8eb97baa.js": {
-    "file": "assets/EmployeesEdit.8eb97baa.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.01d6bdd4.js": {
-    "file": "assets/JobsEdit.01d6bdd4.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.c93551b7.js": {
-    "file": "assets/BilltermsEdit.c93551b7.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.f542a09a.js": {
-    "file": "assets/TaxtablesEntrysEdit.f542a09a.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.93c7ab18.js": {
-    "file": "assets/AuthLayout.93c7ab18.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.abee0b4b.js": {
-    "file": "assets/AccountsEdit.abee0b4b.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.b0798d82.js": {
-    "file": "assets/TransactionsEdit.b0798d82.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.fa6f48fc.js": {
-    "file": "assets/InvoicesEdit.fa6f48fc.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.f6225ec4.js": {
-    "file": "assets/EntrysEditVoucher.f6225ec4.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.cc5666a7.js": {
-    "file": "assets/CustomersEdit.cc5666a7.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.43a6e28b.js": {
-    "file": "assets/VendorsEdit.43a6e28b.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.a494c9b7.js": {
-    "file": "assets/EmployeesEdit.a494c9b7.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.424cac18.js": {
-    "file": "assets/JobsEdit.424cac18.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.46f73fcc.js": {
-    "file": "assets/BilltermsEdit.46f73fcc.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.8aafeece.js": {
-    "file": "assets/TaxtablesEntrysEdit.8aafeece.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.0ade6b0a.js": {
-    "file": "assets/AuthLayout.0ade6b0a.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.7359f698.js": {
-    "file": "assets/AccountsEdit.7359f698.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.b4771068.js": {
-    "file": "assets/TransactionsEdit.b4771068.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.283681dc.js": {
-    "file": "assets/InvoicesEdit.283681dc.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.e38f6763.js": {
-    "file": "assets/EntrysEditVoucher.e38f6763.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.196553c5.js": {
-    "file": "assets/CustomersEdit.196553c5.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.0d33e77c.js": {
-    "file": "assets/VendorsEdit.0d33e77c.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.1e4d0326.js": {
-    "file": "assets/EmployeesEdit.1e4d0326.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.d0503da3.js": {
-    "file": "assets/JobsEdit.d0503da3.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.d63eaab9.js": {
-    "file": "assets/BilltermsEdit.d63eaab9.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.90142d5a.js": {
-    "file": "assets/TaxtablesEntrysEdit.90142d5a.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.33961d65.js": {
-    "file": "assets/AuthLayout.33961d65.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.0cb7d16c.js": {
-    "file": "assets/AccountsEdit.0cb7d16c.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.aa9a4b99.js": {
-    "file": "assets/TransactionsEdit.aa9a4b99.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.259c658d.js": {
-    "file": "assets/InvoicesEdit.259c658d.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.ea0622bd.js": {
-    "file": "assets/EntrysEditVoucher.ea0622bd.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.61f2f358.js": {
-    "file": "assets/CustomersEdit.61f2f358.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.3a0abdba.js": {
-    "file": "assets/VendorsEdit.3a0abdba.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.250a52d0.js": {
-    "file": "assets/EmployeesEdit.250a52d0.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.9acacdfb.js": {
-    "file": "assets/JobsEdit.9acacdfb.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.83e29bf9.js": {
-    "file": "assets/BilltermsEdit.83e29bf9.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.567deb60.js": {
-    "file": "assets/TaxtablesEntrysEdit.567deb60.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.b58df785.js": {
-    "file": "assets/AuthLayout.b58df785.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.3330a913.js": {
-    "file": "assets/AccountsEdit.3330a913.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.44004881.js": {
-    "file": "assets/TransactionsEdit.44004881.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.2d6433ec.js": {
-    "file": "assets/InvoicesEdit.2d6433ec.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.0bac025e.js": {
-    "file": "assets/EntrysEditVoucher.0bac025e.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.63830eaa.js": {
-    "file": "assets/CustomersEdit.63830eaa.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.95600c13.js": {
-    "file": "assets/VendorsEdit.95600c13.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.fa0ed947.js": {
-    "file": "assets/EmployeesEdit.fa0ed947.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.86b58b19.js": {
-    "file": "assets/JobsEdit.86b58b19.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.d446390d.js": {
-    "file": "assets/BilltermsEdit.d446390d.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.02730a30.js": {
-    "file": "assets/TaxtablesEntrysEdit.02730a30.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.270ba24b.js": {
-    "file": "assets/AuthLayout.270ba24b.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.bfc1a7fd.js": {
-    "file": "assets/AccountsEdit.bfc1a7fd.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.e95a3bf9.js": {
-    "file": "assets/TransactionsEdit.e95a3bf9.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.ae56a411.js": {
-    "file": "assets/InvoicesEdit.ae56a411.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.df8c0c3c.js": {
-    "file": "assets/EntrysEditVoucher.df8c0c3c.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.720242a8.js": {
-    "file": "assets/CustomersEdit.720242a8.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.176b29bd.js": {
-    "file": "assets/VendorsEdit.176b29bd.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.002f10b9.js": {
-    "file": "assets/EmployeesEdit.002f10b9.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.78833164.js": {
-    "file": "assets/JobsEdit.78833164.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.ad9f8693.js": {
-    "file": "assets/BilltermsEdit.ad9f8693.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.2efabfa8.js": {
-    "file": "assets/TaxtablesEntrysEdit.2efabfa8.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "src/views/reports/ReportsAccountSummary.vue": {
-    "file": "assets/ReportsAccountSummary.bb2744a4.js",
-    "src": "src/views/reports/ReportsAccountSummary.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.2fff64cb.js": {
-    "file": "assets/AuthLayout.2fff64cb.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.573debb7.js": {
-    "file": "assets/AccountsEdit.573debb7.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.49e599b1.js": {
-    "file": "assets/TransactionsEdit.49e599b1.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.ec4e0b9d.js": {
-    "file": "assets/InvoicesEdit.ec4e0b9d.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.528df01a.js": {
-    "file": "assets/EntrysEditVoucher.528df01a.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.509804a5.js": {
-    "file": "assets/CustomersEdit.509804a5.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.24c7f9c0.js": {
-    "file": "assets/VendorsEdit.24c7f9c0.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.a6eb5e6c.js": {
-    "file": "assets/EmployeesEdit.a6eb5e6c.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.f70a0e5c.js": {
-    "file": "assets/JobsEdit.f70a0e5c.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.93f8819b.js": {
-    "file": "assets/BilltermsEdit.93f8819b.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.64405912.js": {
-    "file": "assets/TaxtablesEntrysEdit.64405912.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.5947196d.js": {
-    "file": "assets/AuthLayout.5947196d.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.ceae6ef4.js": {
-    "file": "assets/AccountsEdit.ceae6ef4.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.3e6f5e24.js": {
-    "file": "assets/TransactionsEdit.3e6f5e24.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.c8456284.js": {
-    "file": "assets/InvoicesEdit.c8456284.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.d5b13692.js": {
-    "file": "assets/EntrysEditVoucher.d5b13692.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.5f3aea31.js": {
-    "file": "assets/CustomersEdit.5f3aea31.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.7e21ba31.js": {
-    "file": "assets/VendorsEdit.7e21ba31.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.84094d9a.js": {
-    "file": "assets/EmployeesEdit.84094d9a.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.48da08ed.js": {
-    "file": "assets/JobsEdit.48da08ed.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.2990dbcc.js": {
-    "file": "assets/BilltermsEdit.2990dbcc.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.b8343247.js": {
-    "file": "assets/TaxtablesEntrysEdit.b8343247.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.f74782f1.js": {
-    "file": "assets/AuthLayout.f74782f1.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.cd4f3098.js": {
-    "file": "assets/AccountsEdit.cd4f3098.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.39674157.js": {
-    "file": "assets/TransactionsEdit.39674157.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.b85223ff.js": {
-    "file": "assets/InvoicesEdit.b85223ff.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.9dba4895.js": {
-    "file": "assets/EntrysEditVoucher.9dba4895.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.88645b0e.js": {
-    "file": "assets/CustomersEdit.88645b0e.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.c435f153.js": {
-    "file": "assets/VendorsEdit.c435f153.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.01ef32e8.js": {
-    "file": "assets/EmployeesEdit.01ef32e8.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.06592916.js": {
-    "file": "assets/JobsEdit.06592916.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.c95f7e8b.js": {
-    "file": "assets/BilltermsEdit.c95f7e8b.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.a36f9b32.js": {
-    "file": "assets/TaxtablesEntrysEdit.a36f9b32.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.c60ed1d0.js": {
-    "file": "assets/AuthLayout.c60ed1d0.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.f4af77f8.js": {
-    "file": "assets/AccountsEdit.f4af77f8.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.32e7a541.js": {
-    "file": "assets/TransactionsEdit.32e7a541.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.4ab1f876.js": {
-    "file": "assets/InvoicesEdit.4ab1f876.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.3512b167.js": {
-    "file": "assets/EntrysEditVoucher.3512b167.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.6845dc8c.js": {
-    "file": "assets/CustomersEdit.6845dc8c.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.0b28785d.js": {
-    "file": "assets/VendorsEdit.0b28785d.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.4a1b2cd1.js": {
-    "file": "assets/EmployeesEdit.4a1b2cd1.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.3224b092.js": {
-    "file": "assets/JobsEdit.3224b092.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.a91699dd.js": {
-    "file": "assets/BilltermsEdit.a91699dd.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.479feb95.js": {
-    "file": "assets/TaxtablesEntrysEdit.479feb95.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.fcf97d67.js": {
-    "file": "assets/AuthLayout.fcf97d67.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.44e43bea.js": {
-    "file": "assets/AccountsEdit.44e43bea.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.032a08c8.js": {
-    "file": "assets/TransactionsEdit.032a08c8.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.d1ac0149.js": {
-    "file": "assets/InvoicesEdit.d1ac0149.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.a65def91.js": {
-    "file": "assets/EntrysEditVoucher.a65def91.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.cf5524c8.js": {
-    "file": "assets/CustomersEdit.cf5524c8.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.aa04b391.js": {
-    "file": "assets/VendorsEdit.aa04b391.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.7ea5b49d.js": {
-    "file": "assets/EmployeesEdit.7ea5b49d.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.091fd5f4.js": {
-    "file": "assets/JobsEdit.091fd5f4.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.ab5b25b4.js": {
-    "file": "assets/BilltermsEdit.ab5b25b4.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.802243b3.js": {
-    "file": "assets/TaxtablesEntrysEdit.802243b3.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.1ab4b649.js": {
-    "file": "assets/AuthLayout.1ab4b649.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.8cd99ee3.js": {
-    "file": "assets/AccountsEdit.8cd99ee3.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.75f0d2cb.js": {
-    "file": "assets/TransactionsEdit.75f0d2cb.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.6a44b5a9.js": {
-    "file": "assets/InvoicesEdit.6a44b5a9.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.f48128fa.js": {
-    "file": "assets/EntrysEditVoucher.f48128fa.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.257f19de.js": {
-    "file": "assets/CustomersEdit.257f19de.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.952b8146.js": {
-    "file": "assets/VendorsEdit.952b8146.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.48baf5d1.js": {
-    "file": "assets/EmployeesEdit.48baf5d1.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.ff412618.js": {
-    "file": "assets/JobsEdit.ff412618.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.9eee6fc0.js": {
-    "file": "assets/BilltermsEdit.9eee6fc0.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.9f691cec.js": {
-    "file": "assets/TaxtablesEntrysEdit.9f691cec.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.8fce79b0.js": {
-    "file": "assets/AuthLayout.8fce79b0.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.ddc5280d.js": {
-    "file": "assets/AccountsEdit.ddc5280d.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.62a3c25f.js": {
-    "file": "assets/TransactionsEdit.62a3c25f.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.a8fd59e8.js": {
-    "file": "assets/InvoicesEdit.a8fd59e8.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.c5500f9a.js": {
-    "file": "assets/EntrysEditVoucher.c5500f9a.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.ac202175.js": {
-    "file": "assets/CustomersEdit.ac202175.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.927a4b9c.js": {
-    "file": "assets/VendorsEdit.927a4b9c.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.2d03dced.js": {
-    "file": "assets/EmployeesEdit.2d03dced.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.fcc4a3a6.js": {
-    "file": "assets/JobsEdit.fcc4a3a6.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.f02222ad.js": {
-    "file": "assets/BilltermsEdit.f02222ad.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.6f651732.js": {
-    "file": "assets/TaxtablesEntrysEdit.6f651732.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.583d6163.js": {
-    "file": "assets/AuthLayout.583d6163.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.928cf76c.js": {
-    "file": "assets/AccountsEdit.928cf76c.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.3d1fcc64.js": {
-    "file": "assets/TransactionsEdit.3d1fcc64.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.e1cc0b6b.js": {
-    "file": "assets/InvoicesEdit.e1cc0b6b.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.743c65be.js": {
-    "file": "assets/EntrysEditVoucher.743c65be.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.848da1f6.js": {
-    "file": "assets/CustomersEdit.848da1f6.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.e587901e.js": {
-    "file": "assets/VendorsEdit.e587901e.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.182a9329.js": {
-    "file": "assets/EmployeesEdit.182a9329.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.42a02994.js": {
-    "file": "assets/JobsEdit.42a02994.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.0ee0d34b.js": {
-    "file": "assets/BilltermsEdit.0ee0d34b.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.3d6c7673.js": {
-    "file": "assets/TaxtablesEntrysEdit.3d6c7673.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.f9489242.js": {
-    "file": "assets/AuthLayout.f9489242.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.55285cd8.js": {
-    "file": "assets/AccountsEdit.55285cd8.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.114f27a4.js": {
-    "file": "assets/TransactionsEdit.114f27a4.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.a463d8a7.js": {
-    "file": "assets/InvoicesEdit.a463d8a7.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.b89573f0.js": {
-    "file": "assets/EntrysEditVoucher.b89573f0.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.e8e03386.js": {
-    "file": "assets/CustomersEdit.e8e03386.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.309bc9f8.js": {
-    "file": "assets/VendorsEdit.309bc9f8.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.6657248e.js": {
-    "file": "assets/EmployeesEdit.6657248e.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.27fa4404.js": {
-    "file": "assets/JobsEdit.27fa4404.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.2b4068ae.js": {
-    "file": "assets/BilltermsEdit.2b4068ae.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.807cfc38.js": {
-    "file": "assets/TaxtablesEntrysEdit.807cfc38.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.223160e6.js": {
-    "file": "assets/AuthLayout.223160e6.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.dd7387e3.js": {
-    "file": "assets/AccountsEdit.dd7387e3.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.95956d92.js": {
-    "file": "assets/TransactionsEdit.95956d92.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.a1f731ed.js": {
-    "file": "assets/InvoicesEdit.a1f731ed.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.b3ee1e98.js": {
-    "file": "assets/EntrysEditVoucher.b3ee1e98.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.6e8ec280.js": {
-    "file": "assets/CustomersEdit.6e8ec280.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.0cae9744.js": {
-    "file": "assets/VendorsEdit.0cae9744.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.4a067fd2.js": {
-    "file": "assets/EmployeesEdit.4a067fd2.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.c8af133e.js": {
-    "file": "assets/JobsEdit.c8af133e.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.238ec09c.js": {
-    "file": "assets/BilltermsEdit.238ec09c.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.5ce651e3.js": {
-    "file": "assets/TaxtablesEntrysEdit.5ce651e3.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_AuthLayout.a26638c0.js": {
-    "file": "assets/AuthLayout.a26638c0.js",
-    "imports": [
-      "src/main.ts"
-    ],
-    "assets": [
-      "assets/logo.da9b9095.svg"
-    ]
-  },
-  "_AccountsEdit.2f7965f7.js": {
-    "file": "assets/AccountsEdit.2f7965f7.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TransactionsEdit.254759af.js": {
-    "file": "assets/TransactionsEdit.254759af.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_InvoicesEdit.3a671c9b.js": {
-    "file": "assets/InvoicesEdit.3a671c9b.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EntrysEditVoucher.e003dc62.js": {
-    "file": "assets/EntrysEditVoucher.e003dc62.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_CustomersEdit.7908761f.js": {
-    "file": "assets/CustomersEdit.7908761f.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_VendorsEdit.8ace8b68.js": {
-    "file": "assets/VendorsEdit.8ace8b68.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_EmployeesEdit.17c0f204.js": {
-    "file": "assets/EmployeesEdit.17c0f204.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_JobsEdit.5c295b6b.js": {
-    "file": "assets/JobsEdit.5c295b6b.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_BilltermsEdit.a98600eb.js": {
-    "file": "assets/BilltermsEdit.a98600eb.js",
-    "imports": [
-      "src/main.ts"
-    ]
-  },
-  "_TaxtablesEntrysEdit.3fdcd48e.js": {
-    "file": "assets/TaxtablesEntrysEdit.3fdcd48e.js",
     "imports": [
       "src/main.ts"
     ]
