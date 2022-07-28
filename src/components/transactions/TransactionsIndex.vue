@@ -29,13 +29,13 @@ export default {
 
         async destroy(split) {
             if (confirm("Are you sure you want to delete this item?")) {
-                await this.store.delete(`${import.meta.env.VITE_ROOT}transactions/${this.store.props.account.pk}/destroy/${split.transaction.pk}`);
+                await this.store.delete(`${import.meta.env.VITE_ROOT}transactions/${this.store.props.account.pk}/destroy/${split.pk}`);
                 this.load(this.store.transactions_filter.page);
             }
         },
 
         async duplicate(split) {
-            await this.store.get(`${import.meta.env.VITE_ROOT}transactions/${this.store.props.account.pk}/duplicate/${split.transaction.pk}`);
+            await this.store.get(`${import.meta.env.VITE_ROOT}transactions/${this.store.props.account.pk}/duplicate/${split.pk}`);
             await this.load(0);
         },
 
