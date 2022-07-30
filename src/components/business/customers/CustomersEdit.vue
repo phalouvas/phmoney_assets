@@ -48,9 +48,9 @@ export default {
         async submit() {
 
             let currency = this.store.props.currencies.find(currency => currency.guid === this.form.currency);
-            this.form.discount_num = this.discount * currency.fraction;
+            this.form.discount_num = isNaN(this.discount) ? 0 : this.discount * currency.fraction;
             this.form.discount_denom = currency.fraction;
-            this.form.credit_num = this.credit * currency.fraction;
+            this.form.credit_num = isNaN(this.credit) ? 0 : this.credit * currency.fraction;
             this.form.credit_denom = currency.fraction;
 
             if (this.$route.name === 'business.customers.create') {
@@ -159,11 +159,11 @@ export default {
                 </div>
                 <div>
                     <form-label for="discount" value="Discount" />
-                    <form-input id="discount" type="number" v-model="discount" min="0" required />
+                    <form-input id="discount" type="number" v-model="discount" min="0" />
                 </div>
                 <div>
                     <form-label for="credit" value="Credit Limit" />
-                    <form-input id="credit" type="number" v-model="credit" step="0.01" min="0" required />
+                    <form-input id="credit" type="number" v-model="credit" step="0.01" min="0" />
                 </div>
                 <div>
                     <form-label for="tax_included" value="Tax Included" />
