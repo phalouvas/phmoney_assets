@@ -23,7 +23,6 @@ export default {
 
     methods: {
         async submit() {
-            console.log(this.form.guids);
             this.form.guids = [];
             for (let index = 0; index < this.store.props.credits.length; index++) {
                 const element = this.store.props.credits[index];
@@ -69,7 +68,7 @@ export default {
         <div class="flex flex-wrap gap-2">
             <div>
                 <form-label for="date_statement" value="Statement Date" />
-                <form-input id="date_statement" type="date" v-model="date_statement" required @change="reload" />
+                <form-input id="date_statement" type="date" v-model="date_statement" required />
             </div>
 
             <div>
@@ -92,6 +91,12 @@ export default {
             <div>
                 <form-label for="difference" value="Difference" />
                 <form-input id="difference" type="number" v-model="difference" min="0" class="bg-gray-200" disabled />
+            </div>
+            <div>
+                <form-label value="Refresh" />
+                <form-secondary-button title="Refresh" @click="reload">
+                    <span class="material-icons-outlined"> refresh </span>
+                </form-secondary-button>
             </div>
         </div>
 
